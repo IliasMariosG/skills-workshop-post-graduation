@@ -1,6 +1,6 @@
 class NoteFormatter
-  def format
-    p "Title: title
+  def format(note)
+    "Title: title
 body"
   end
 end
