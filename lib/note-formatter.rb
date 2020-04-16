@@ -1,5 +1,5 @@
 class NoteFormatter
   def format(note)
-    #{note}
+   "#{note}"
   end
 end
