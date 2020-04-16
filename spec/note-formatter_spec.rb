@@ -6,7 +6,8 @@ describe NoteFormatter do
     it 'formats the title' do
       note_formatter = NoteFormatter.new
       note = "Title: title\nbody"
-      expect(note_formatter.format(note)).to eq "Title: title\nbody"
+      expected_output = "Title: title\nbody"
+      expect(note_formatter.format(note)).to eq expected_output
     end
   end
 end
